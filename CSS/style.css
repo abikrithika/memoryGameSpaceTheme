@@ -6,7 +6,7 @@ body {
   align-items: center;
   min-height: 100vh;
   padding: 20px;
-  background: url("../Images/space.jpg") no-repeat center center fixed;
+  background: url("Images/space.jpg") no-repeat center center fixed;
   background-size: cover;
   color: white;
 }
