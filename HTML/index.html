@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
+  <body>
+    <h1>Flip & Match | Memory Game</h1>
+    <button id="restartBtn">Play Again</button>
+
+    <p>⏳ Time: <span id="gameTime">0</span> seconds</p>
+    <div class="display-content">
+      <div class="message-content">
+        <h2 id="endMessage">🌌 Mission Complete!</h2>
+         <p>🚀 Reveals: <span id="reveals"></span></p>
+       <p>🛰 Attempts: <span id="attempts"></span></p>
+
+        <p id="gameOver" style="font-size: 1.5rem; margin-top: 20px">
+          🎉 End of Game!
+        </p>
+        <div id="endGameButtonContainer"></div>
+      </div>
+    </div>
+
+    <div class="card-grid">
+      <!--Pair 1-->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="../Images/frontCardImage.jpg" alt="Planet" />
+          </div>
+          <div class="flip-card-back">
+            <img src="../Images/Planets.jpg" alt="Planet" />
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="../Images/frontCardImage.jpg" alt="Planet" />
+          </div>
+          <div class="flip-card-back">
+            <img src="../Images/Planets.jpg" alt="Planet" />
+          </div>
+        </div>
+      </div>
+
+      <!--Pair 2-->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="../Images/frontCardImage.jpg" alt="Comet" />
+          </div>
+          <div class="flip-card-back">
+            <img src="../Images/comet.jpg" alt="Comet" />
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="../Images/frontCardImage.jpg" alt="Comet" />
+          </div>
+          <div class="flip-card-back">
+            <img src="../Images/comet.jpg" alt="Comet" />
+          </div>
+        </div>
+      </div>
+
+      <!--Pair 3-->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="../Images/frontCardImage.jpg" alt="Moon" />
+          </div>
+          <div class="flip-card-back">
+            <img src="../Images/moon.jpg" alt="Moon" />
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="../Images/frontCardImage.jpg" alt="Moon" />
+          </div>
+          <div class="flip-card-back">
+            <img src="../Images/moon.jpg" alt="Moon" />
+          </div>
+        </div>
+      </div>
+
+      <!--Pair 4-->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="../Images/frontCardImage.jpg" alt="Rocket" />
+          </div>
+          <div class="flip-card-back">
+            <img src="../Images/rocket.jpg" alt="Rocket" />
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="../Images/frontCardImage.jpg" alt="Rocket" />
+          </div>
+          <div class="flip-card-back">
+            <img src="../Images/rocket.jpg" alt="Rocket" />
+          </div>
+        </div>
+      </div>
+
+      <!--Pair 5-->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="../Images/frontCardImage.jpg" alt="Star" />
+          </div>
+          <div class="flip-card-back">
+            <img src="../Images/star.webp" alt="Star" />
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="../Images/frontCardImage.jpg" alt="Star" />
+          </div>
+          <div class="flip-card-back">
+            <img src="../Images/star.webp" alt="Star" />
+          </div>
+        </div>
+      </div>
+
+      <!--Pair 6-->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="../Images/frontCardImage.jpg" alt="Sun" />
+          </div>
+          <div class="flip-card-back">
+            <img src="../Images/sun.jpg" alt="sun" />
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="../Images/frontCardImage.jpg" alt="Sun" />
+          </div>
+          <div class="flip-card-back">
+            <img src="../Images/sun.jpg" alt="Sun" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../JS/script.js"></script>
+  </body>
+</html>
