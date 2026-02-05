@@ -3,7 +3,7 @@
 A fun and interactive **memory matching game** built with **HTML, CSS, and JavaScript**. Flip cards to find matching pairs, track your time, number of attempts, and card reveals — and challenge your memory!
 
 🔥 **Live Demo:**  
-https://abikrithika.github.io/memory-game/
+[https://abikrithika.github.io/memoryGameSpaceTheme/](https://abikrithika.github.io/memoryGameSpaceTheme/)
 
 ---
 
@@ -19,17 +19,25 @@ https://abikrithika.github.io/memory-game/
 
 ---
 
-## 🕹️ How to Play
+## 📱 Responsive Design
 
-1. Click any card to flip it.
-2. Flip another card to try to find a match.
-3. If the cards match, they stay flipped.
-4. If they don’t match, they flip back after a short delay.
-5. Continue until all pairs are found.
-6. View your time, attempts, and reveals at the end.
+The game is fully responsive and works on:  
+- 🖥️ Desktop  
+- 📱 Mobile  
+- 🧩 Tablet  
+
+The card grid, buttons, and modal automatically adjust to screen size.
 
 ---
 
+## 🕹️ How to Play
+
+1. Click any card to flip it.  
+2. Flip another card to try to find a match.  
+3. If the cards match, they stay flipped.  
+4. If they don’t match, they flip back after a short delay.  
+5. Continue until all pairs are found.  
+6. View your time, attempts, and reveals at the end.
 
 ---
 
@@ -45,11 +53,19 @@ No external libraries or frameworks were used.
 
 ---
 
-## 📦 Get Started (Local Development)
+## 📦 Getting Started (Local Development)
 
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/abikrithika/memory-game.git
+git clone https://github.com/abikrithika/memoryGameSpaceTheme.git
 
+**🙋‍♀️ Author**
 
+Abikrithika
+GitHub: https://github.com/abikrithika
+ 
+
+**⭐ License
+**
+This project is open source and free to use for learning and personal projects.
